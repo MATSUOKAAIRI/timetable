@@ -8,8 +8,8 @@ const TableComponent = () => (
     </tbody>
   </table>
 );
-
-export default function Home() {
+import Home from '../components/Home';
+export default function MainPage() {
   return (
  <div>
   <div className="bg_pattern Paper_v2">
@@ -30,11 +30,31 @@ export default function Home() {
          <tbody>
         <tr>
          <td>1</td>
-         <td><Form /></td>
-         <td>F</td>
-         <td>g</td>
-         <td>h</td>
-         <td>q</td>
+         <td>
+         <div>
+      <Home />
+    </div>
+         </td>
+         <td>
+         <div>
+      <Home />
+    </div>
+         </td>
+         <td>
+         <div>
+      <Home />
+    </div>
+         </td>
+         <td>
+         <div>
+      <Home />
+    </div>
+         </td>
+         <td>
+         <div>
+      <Home />
+    </div>
+         </td>
         </tr>
         </tbody>
         <tbody>
