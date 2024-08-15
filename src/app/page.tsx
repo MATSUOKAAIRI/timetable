@@ -10,7 +10,7 @@ const TableComponent = () => (
 );
 import Home from '../components/Home';
 export default function MainPage() {
-  return (
+ return (
  <div>
   <div className="bg_pattern Paper_v2">
   
@@ -25,80 +25,176 @@ export default function MainPage() {
          <th>水曜日</th>
          <th>木曜日</th>
          <th>金曜日</th>
-         </tr>
-         </tbody>
-         <tbody>
+        </tr>
+      </tbody>
+      <tbody>
         <tr>
-         <td>1</td>
          <td>
-         <div>
-      <Home />
-    </div>
+            1
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
          </td>
          <td>
          <div>
-      <Home />
-    </div>
+            <Home />
+         </div>
          </td>
          <td>
-         <div>
-      <Home />
-    </div>
+          <div>
+           <Home />
+          </div>
          </td>
          <td>
-         <div>
-      <Home />
-    </div>
+          <div>
+           <Home />
+          </div>
          </td>
          <td>
-         <div>
-      <Home />
-    </div>
+          <div>
+            <Home />
+          </div>
          </td>
         </tr>
-        </tbody>
-        <tbody>
+      </tbody>
+      <tbody>
         <tr>
-         <td>2</td>
-         <td>H</td>
-         <td>I</td>
-         <td>b</td>
-         <td>a</td>
-         <td>q</td>
+         <td>
+          <div>
+            2
+          </div>      
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
         </tr>
-        </tbody>
-        <tbody>
+      </tbody>
+      <tbody>
         <tr>
-         <td>3</td>
-         <td>K</td>
-         <td>L</td>
-         <td>a</td>
-         <td>e</td>
-         <td>q</td>
+         <td>
+          <div>
+            3
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
         </tr>
-        </tbody>
-        <tbody>
+      </tbody>
+      <tbody>
         <tr>
-          <td>4</td>
-          <td>m</td>
-          <td>n</td>
-          <td>w</td>
-          <td>q</td>
-          <td>z</td>
+         <td>
+          <div>
+            4
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
         </tr>
-        </tbody>
-        <tbody>
+      </tbody>
+      <tbody>
         <tr>
-            <td>5</td>
-            <td>o</td>
-            <td>p</td>
-            <td>y</td>
-            <td>n</td>
-            <td>o</td>
+         <td>
+            5
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
+         <td>
+          <div>
+            <Home />
+          </div>
+         </td>
         </tr>
-        </tbody>
+      </tbody>
     </table>
-   </div> 
-   </div>
+  </div> 
+ </div>
   );
 }
