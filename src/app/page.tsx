@@ -9,13 +9,15 @@ const TableComponent = () => (
   </table>
 );
 import Home from '../components/Home';
+import Header from "../components/header/header";
 export default function MainPage() {
  return (
  <div>
   <div className="bg_pattern Paper_v2">
-  
-    <h1 className="h1">時間割</h1>
-
+    <>
+  <Header>
+</Header>
+</>
     <table className="design08">
       <tbody>
         <tr>
