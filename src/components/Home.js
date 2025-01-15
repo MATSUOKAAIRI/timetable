@@ -75,7 +75,6 @@ export default function Home() {
           <p>{bag}</p>
         </div>
       )}
-     
     </div>
   );
 }
