@@ -8,6 +8,7 @@ const TableComponent = () => (
     </tbody>
   </table>
 );
+import Footer from '@/components/Footer/Footer';
 import Home from '../components/Home';
 import Header from "../components/header/header";
 export default function MainPage() {
@@ -192,7 +193,7 @@ export default function MainPage() {
           </td>
         </tr>
       </tbody>
-    </table>
+    </table><Footer/>
     </div> 
   </div>
   );
