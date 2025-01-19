@@ -61,7 +61,7 @@ export default function Home() {
           value={bag}
           required
           />
-          <button type="submit" className="submitButton">Get it!</button>
+          <button type="submit" className="submitButton">あああ</button>
         </div>
         {setIsForms &&(
           <button className="exitBtn" onClick={handbell}>×</button>
