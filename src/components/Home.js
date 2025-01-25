@@ -6,7 +6,7 @@ export default function Home() {
   const [isFormVisible, setIsFormVisible] = useState(true);
   const [isForms, setIsForms] = useState(false);
   const [name, setName] = useState('');
-  const [comment, setComment] = useState('');
+  const [place, setPlace] = useState('');
   const [bag, setBag] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isMeat, setIsMeat] = useState(false);
@@ -50,8 +50,8 @@ export default function Home() {
           <input 
           placeholder="場所:" 
           type="text" 
-          onChange={(e) => setComment(e.target.value)}
-          value={comment}
+          onChange={(e) => setPlace(e.target.value)}
+          value={place}
           required
           />
           <input 
@@ -71,7 +71,7 @@ export default function Home() {
       {isMeat && (
         <div>
           <p>{name}</p>
-          <p>{comment}</p>
+          <p>{place}</p>
           <p>{bag}</p>
         </div>
       )}
